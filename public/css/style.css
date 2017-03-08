@@ -1,0 +1,28 @@
+div.mainbox {
+    margin-top: 50px;
+}
+
+.panel-body {
+    padding-top: 30px
+}
+
+.login-description {
+    margin-top: 15px;
+}
+
+.messages-body {
+    min-height: 2000px;
+    padding-top: 70px;
+}
+
+#facebook-auth {
+    background: #3b5998
+}
+
+#google-auth {
+    background: #dd4b39
+}
+
+#vk-auth {
+    background: #45668e
+}

@@ -1,0 +1,7 @@
+# remove file extension from url
+RewriteRule ^(([^/]+/)*[^.]+)$ /$1.php [L]
+
+<FilesMatch "\.(?:ini)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
