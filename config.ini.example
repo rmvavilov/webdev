@@ -1,0 +1,25 @@
+; Main APP config file
+; remove .example from file name 
+; and set database parameters
+
+; MySQL config block
+db_host = '';
+db_username = '';
+db_password = '';
+db_name = '';
+
+; VK.com config parameters
+vk_app_id = '';
+vk_api_secure_key = '';
+vk_api_redirect_uri = '';
+vk_api_url = 'http://oauth.vk.com/authorize';
+vk_api_token_url = 'https://oauth.vk.com/access_token';
+vk_api_user_info_url = 'https://api.vk.com/method/users.get';
+
+; Facebook config parameters
+facebook_app_id = '';
+facebook_api_secure_key = '';
+facebook_api_redirect_uri = '';
+facebook_api_url = 'https://www.facebook.com/dialog/oauth';
+facebook_api_token_url = 'https://graph.facebook.com/oauth/access_token';
+facebook_api_user_info_url = 'https://graph.facebook.com/me';
