@@ -23,3 +23,11 @@ facebook_api_redirect_uri = '';
 facebook_api_url = 'https://www.facebook.com/dialog/oauth';
 facebook_api_token_url = 'https://graph.facebook.com/oauth/access_token';
 facebook_api_user_info_url = 'https://graph.facebook.com/me';
+
+; Google config parameters
+google_app_id = '';
+google_api_secure_key = '';
+google_api_redirect_uri = '';
+google_api_url = 'https://accounts.google.com/o/oauth2/auth';
+google_api_token_url = 'https://accounts.google.com/o/oauth2/token';
+google_api_user_info_url = 'https://www.googleapis.com/oauth2/v1/userinfo';
